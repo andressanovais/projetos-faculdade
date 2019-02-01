@@ -1,6 +1,7 @@
-# medidas-centralidade-grafos
+# medidas-centralidade-grafos 
 
-Esse projeto possui como objetivo calcular três medidas de centralidade de um dado grafo, que são:
+Linguagem: Java
+Este projeto possui como objetivo calcular três medidas de centralidade de um dado grafo, que são:
 
 a) Grau dos vértices.
 
