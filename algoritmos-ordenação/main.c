@@ -15,7 +15,6 @@ typedef struct {
 void mergeSort(dados *v, int p, int r);
 void insertionSort(dados *v, int n);
 void quickSort(dados *v, int p, int r);
-void quickSort_2(dados *v, int p, int r);
 void countingSort(dados *A, int n, float exp);
 void radixSort(dados *v, int n);
 void heapSort(dados *v, int n);
@@ -100,7 +99,7 @@ int main()
 
 	dados *medicamentos=criarVetor(N_MED);
 	lerArq_med(arqM, medicamentos);
-	quickSort_2(medicamentos, 0, N_MED-1);
+	quickSort(medicamentos, 0, N_MED-1);
 	//heapSort(medicamentos, N_MED);
 	//mergeSort(medicamentos, 0, N_MED-1);
     //insertionSort(medicamentos, N_MED);
@@ -117,7 +116,7 @@ int main()
 	dados *soldado_cidadao=criarVetor(N_SOLD);
 	retirarAspas(arqS);
 	lerArq_sold(arqS, soldado_cidadao);
-	quickSort_2(soldado_cidadao, 0, N_SOLD-1);
+	quickSort(soldado_cidadao, 0, N_SOLD-1);
 	//heapSort(soldado_cidadao, N_SOLD);
 	//mergeSort(soldado_cidadao, 0, N_SOLD-1);
 	//insertionSort(soldado_cidadao, N_SOLD);
@@ -332,18 +331,6 @@ void escreverArquivo2(char *nome, dados *v, int n){ //escreve os 100 maiores pri
 /* -------------------------------------------------- ALGORITMOS DE ORDENAÇÃO --------------------------------------------- */
 
 void quickSort(dados *v, int p, int r){
-/* A condição p<r serve para cobrir dois casos:
- * 1) Quando não existem números menores aos do pivô. Nesse caso, r=p-1 e 'p' será maior que 'r'.
- * 2) Quando existe apenas um elemento. Nesse caso, p=r. */
-
-	if(p<r){
-		int q=particionar(v, p, r);
-		quickSort(v, p, q-1); //O 'q-1' torna-se o novo >r< do próximo pedacinho.
-		quickSort(v, q+1, r); //O 'q+1' torna-se o novo >p< do próximo pedacinho.
-	}
-}
-
-void quickSort_2(dados *v, int p, int r){
 /* A condição p<r serve para cobrir dois casos:
  * 1) Quando não existem números menores aos do pivô. Nesse caso, r=p-1 e 'p' será maior que 'r'.
  * 2) Quando existe apenas um elemento. Nesse caso, p=r. */
