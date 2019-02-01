@@ -1,0 +1,37 @@
+---------- TOP 10, BETWEENNESS
+Vértice 0 "Beak" -> Betweenness 31.570528378133805
+Vértice 14 "Grin" -> Betweenness 29.13621432669566
+Vértice 8 "Double" -> Betweenness 11.805549198207085
+Vértice 1 "Beescratch" -> Betweenness 10.868872552920408
+Vértice 3 "CCL" -> Betweenness 8.755443457666408
+Vértice 28 "Oscar" -> Betweenness 8.38503750967725
+Vértice 2 "Bumper" -> Betweenness 4.584700581725223
+Vértice 15 "Haecksel" -> Betweenness 2.915881071109572
+Vértice 17 "Jet" -> Betweenness 2.593872561339769
+Vértice 38 "SN63" -> Betweenness 2.1875009016366675
+
+---------- TOP 10, CLOSENESS:
+
+Vértice 40 "SN9" -> Closeness 0.005291005291005291
+Vértice 47 "TR77" -> Closeness 0.005050505050505051
+Vértice 37 "SN4" -> Closeness 0.005
+Vértice 20 "Kringel" -> Closeness 0.004739336492890996
+Vértice 36 "SN100" -> Closeness 0.0045662100456621
+Vértice 14 "Grin" -> Closeness 0.004524886877828055
+Vértice 3 "CCL" -> Closeness 0.004484304932735426
+Vértice 8 "Double" -> Closeness 0.004424778761061947
+Vértice 59 "Zap" -> Closeness 0.004424778761061947
+Vértice 45 "Topless" -> Closeness 0.0043859649122807015
+
+---------- TOP 10, GRAUS:
+
+Vértice 14 "Grin" -> Grau 12
+Vértice 37 "SN4" -> Grau 11
+Vértice 45 "Topless" -> Grau 11
+Vértice 33 "Scabs" -> Grau 10
+Vértice 51 "Trigger" -> Grau 10
+Vértice 20 "Kringel" -> Grau 9
+Vértice 17 "Jet" -> Grau 9
+Vértice 29 "Patchback" -> Grau 9
+Vértice 57 "Web" -> Grau 9
+Vértice 40 "SN9" -> Grau 8
