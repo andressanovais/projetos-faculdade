@@ -1,6 +1,7 @@
 # medidas-centralidade-grafos
 
-Esse projeto possui como objetivo calcular três medidas de centralidade de um grafo, que são:
+Esse projeto possui como objetivo calcular três medidas de centralidade de um dado grafo, que são:
+
 a) Grau dos vértices.
 b) Closeness, comprimento médio do caminho mais curto entre um vértice e todos os outros vértices do grafo.
 c) Betweenness, número de vezes que um vértice age como uma ponte ao longo do caminho mais curto entre dois outros vértices.
