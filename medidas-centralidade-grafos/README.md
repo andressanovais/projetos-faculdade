@@ -1,4 +1,4 @@
-#medidas-centralidade-grafos
+# medidas-centralidade-grafos
 
 Esse projeto possui como objetivo calcular três medidas de centralidade de um grafo, que são:
 a) Grau dos vértices.
