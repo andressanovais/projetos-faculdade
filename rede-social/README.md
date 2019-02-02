@@ -1,2 +1,2 @@
 # rede-social
-Esse projeto possui como objetivo a criação de uma rede social utilizando grafo.
+Este projeto possui como objetivo a criação de uma rede social utilizando grafo.
